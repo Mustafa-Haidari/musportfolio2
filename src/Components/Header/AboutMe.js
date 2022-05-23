@@ -16,16 +16,17 @@ const AboutMe = () => {
         <br />
         <p>
           I have a diploma of Software Development where I created
-          multiple projects using C#, .NET Core and Java. I have a good understanding of
+          multiple projects using C#, .NET Core, Java and created a game for mobile phone using Unity. I have a good understanding of
           relational database and SQL Server Management Studio.
         </p>
+        <br />
 
         <p>
-          I also have a very good understanding of HTML, CSS and JavaScript. I
-          have taken multiple online courses and completed multiple simple and
+          Apart from my diploma, I also have a good understanding of HTML, CSS and JavaScript. 
+          I have taken multiple online courses and completed multiple simple and
           complex projects using HTML, CSS and JavaScript. I have a good
-          understanding of React and React hooks such as useState and I am currently learning Redux. Some examples of projects that I
-          have created using React is available under my portfolio.
+          understanding of React and React hooks and complex state management using useContext and useReducer and I am currently learning Redux. 
+          Some examples of projects that I have created using React is available under my portfolio.
         </p>
         <br />
         <p>
@@ -39,6 +40,12 @@ const AboutMe = () => {
           also understand the benefits of using CSS variables in using a
           consistent styling across a web page.
         </p>
+        <br />
+        <br />
+        <div>
+          <h3>Phone: +61406585283</h3>
+          <h3>Email: mhaidarpoor@gmail.com</h3>
+        </div>
       </Container>
     </React.Fragment>
   );

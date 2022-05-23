@@ -1,11 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 import classes from "./Card.module.css";
 
 const Card = (props) => {
   const { item } = props;
   return (
     <div className={classes.card}>
-      <img className={classes.itemImage} src={item.image} />
+      <img className={classes.itemImage} src={item.image} alt={item.title} />
 
       <div className={classes.techsUsed}>
         {item.techsUsed.map((tech, index) => (
@@ -34,7 +34,7 @@ const Card = (props) => {
 
         <div className='btns' target="_blank">
         <i className="uil uil-github"></i> 
-            <button><a href={item.url} target='_blank'>Live view</a></button>
+            <button><a href={item.url}>Live view</a></button>
         </div>
       </div>
     </div>
