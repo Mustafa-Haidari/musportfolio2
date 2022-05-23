@@ -1,0 +1,38 @@
+.card {
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 28%);
+    transition: .5s all ease-in;
+}
+
+.itemImage {
+    width: 100%;
+    object-fit: cover;
+    transition: all .5s ease;;
+}
+
+.techsUsed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: -5px;
+    padding: .5rem;
+    background-color: rgb(211, 154, 50);
+    flex-wrap: nowrap;
+}
+
+.details {
+    padding: 1rem;
+}
+
+.details .date {
+    color: orange;
+}
+
+.details .title {
+    padding: 1rem 0 1rem 0;
+    font-weight: bold;
+}

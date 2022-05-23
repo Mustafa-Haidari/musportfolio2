@@ -1,0 +1,11 @@
+.header {
+    margin: 0;
+    padding: 0;
+}
+
+.grid_center {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    padding: 2rem 0 3rem 0;
+}

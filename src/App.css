@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: #28223F;
+  font-family: 'Raleway', sans-serif;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	min-height: 100vh;
+	margin: 0;
+}
+h1, p, span, div {
+  color: white;
+}
+
+/* btns */
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: .5rem;
+  padding: .5rem 0;
+}
+
+.btns a {
+  text-decoration: none;
+}
+
+.btns button {
+  flex: 1;
+  padding: .5rem;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btns i {
+  font-size: 2rem;
+}
+
+/* techs */
+span.tech {
+  display: inline-block;
+  font-size: .8rem;
+  border-radius: 5px;
+  background-color: lightcoral;
+  padding: 4px 5px;
+  font-weight: bold;
+  color: white;
+}
+
+span.html {
+  background-color: #dd4b25;
+}
+
+span.css {
+  background-color: #254bdd;
+}
+
+span.js {
+  background-color: #f7df1e;
+  color: black;
+}
+
+span.react {
+  background-color: black;
+  color: #61dafb;
+}
+
+span.csharp {
+  background-color: green;
+  color: white;
+}
+
+span.web3 {
+  background-color: darkblue;
+  color: white;
+}
+
+
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: red;
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}

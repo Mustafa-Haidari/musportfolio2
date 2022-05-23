@@ -1,0 +1,92 @@
+.card-container {
+	border-radius: 10px;
+    overflow: hidden;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.dark_mode {
+	background: linear-gradient(90deg, #03041a, #0f2032, #1c283e, #1b406e);
+    color: white;
+}
+
+.light_icon {
+    color: black;
+}
+
+.light_mode {
+    background: antiquewhite;
+}
+
+.light_mode h1,.light_mode h4,.light_mode p {
+    color: black;
+}
+
+
+.card-container .round {
+	border: 1px solid #03BFCB;
+	border-radius: 50%;
+    width: 70%;
+	padding: 7px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    cursor: pointer;
+}
+
+button.primary {
+	background-color: #03BFCB;
+	border: 1px solid #03BFCB;
+	border-radius: 3px;
+	color: #231E39;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+button.primary.ghost {
+	background-color: transparent;
+	color: #02899C;
+}
+
+.skills {
+	background-color: #1F1A36;
+	text-align: left;
+	padding: 15px;
+	margin-top: 5px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
+
+.card_lightdark {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
