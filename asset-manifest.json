@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/musportfolio/static/css/main.f883d025.css",
+    "main.js": "/musportfolio/static/js/main.f99aab53.js",
+    "static/media/Mustafa.png": "/musportfolio/static/media/Mustafa.835903b9d387675af6a5.png",
+    "index.html": "/musportfolio/index.html",
+    "main.f883d025.css.map": "/musportfolio/static/css/main.f883d025.css.map",
+    "main.f99aab53.js.map": "/musportfolio/static/js/main.f99aab53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f883d025.css",
+    "static/js/main.f99aab53.js"
+  ]
+}
