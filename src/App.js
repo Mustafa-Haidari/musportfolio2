@@ -14,7 +14,7 @@ function App() {
 
       <footer>
         <div>
-          <p>Mustafa Haidari</p>
+          <p>2022 &copy; Mustafa Haidari</p>
           <p>Brisbane, Australia</p>
           <p>mhaidarpoor@gmail.com</p>
         </div>
