@@ -1,9 +1,12 @@
+import slider from '../src/assets/Slider.png'
+import placeholder from '../src/assets/imgplaceholder.png'
+
 const PortfolioData = [
     {
         id: 0,
         created: new Date(2021, 12, 10).toLocaleDateString(),
         title: 'Airtime International',
-        image: 'https://raw.githubusercontent.com/Mustafa-Haidari/Mustafa/main/assets/expense-tracker.png',
+        image: placeholder,
         description: 'Airtime international is one of my fullstack projects that I have started in April and almost completed. This repository is private on Github but I can show this project in person if opportunity comes.',
         techsUsed: ['JavaScript', 'CSS', 'HTML', 'React'],
         url: 'https://mustafa-haidari.github.io/expense-tracker/'
@@ -66,10 +69,10 @@ const PortfolioData = [
         id: 7,
         created: new Date(2021, 12, 10).toLocaleDateString(),
         title: 'React Food Order App',
-        image: 'https://mustafa-haidari.github.io/Mustafa/assets/content-placeholder.png',
+        image: placeholder,
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s ',
         techsUsed: ['JavaScript', 'CSS', 'HTML'],
-        url: 'https://mustafa-haidari.github.io/content-placeholder/'
+        url: 'https://mustafa-haidari.github.io/React-Food-order-app/'
     },
     {
         id: 8,
@@ -78,7 +81,25 @@ const PortfolioData = [
         image: 'https://mustafa-haidari.github.io/Mustafa/assets/content-placeholder.png',
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s ',
         techsUsed: ['JavaScript', 'CSS', 'HTML'],
-        url: 'https://mustafa-haidari.github.io/React-Food-order-app/'
+        url: 'https://mustafa-haidari.github.io/content-placeholder/'
+    },
+    {
+        id: 9,
+        created: new Date(2018, 9, 2).toLocaleDateString(),
+        title: 'Slider',
+        image: slider,
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s ',
+        techsUsed: ['JavaScript', 'CSS', 'HTML'],
+        url: 'https://mustafa-haidari.github.io/slideshow-JS/'
+    },
+    {
+        id: 10,
+        created: new Date(2018, 9, 2).toLocaleDateString(),
+        title: 'Slider',
+        image: slider,
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s ',
+        techsUsed: ['JavaScript', 'CSS', 'HTML'],
+        url: 'https://mustafa-haidari.github.io/slideshow-JS/'
     }
 ]
 
